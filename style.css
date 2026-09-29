@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+font-family: Inter !important;
+}
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.navbar .nav .nav-item .nav-link {
+    font-family: 'Inter' ;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+
+}
+.navbar .nav .nav-item .nav-link.signup{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #9A9EA7;
+}
+.section1{
+    background-image: url(Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+}
+.section1h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+text-align: center;
+letter-spacing: -0.304762px;
+color: #FFFFFF;
+padding: 100px;
+}
+.section1p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+margin-top: -80px;
+}
+.topfootersection{
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 3px 4px rgba(153, 155, 168,0.15);
+    height: auto;
+    position: absolute;
+    margin: 0px auto;
+    bottom: -40px;
+    left: 50%;
+    padding: 20px;
+    max-width: 1140px;
+    width: 98%;
+    transform: translateX(-50%);
+}
+@media (max-width:768px){
+    .section1h1{
+        font-size: 36px;
+        line-height: 30px;
+    }
+}
+@media (max-width:768px){
+    .section1p{
+        font-size: 18px;
+    }
+}
+@media (max-width:768px){
+    .topsearch{
+        width: 100%;
+        margin-top: 3px;
+    }
+    
+}
+
+.section2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.section2 img{
+    margin-top: 40px;
+}
+.find-nav h3{
+    margin-top: 20px;
+}
+.findp{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+letter-spacing: -0.1px;
+
+color: #9A9EA7;
+
+}
+.navitem{
+    display: flex;
+    margin-top: 60px;
+}
+.navitem img{
+    width: 40px;
+    height: 40px;
+}
+.navdes{
+    margin-left: 20px;
+}
+.navdes .findcode{
+    margin-top: -20px;
+}
+.navdes1{
+    display: flex;
+    justify-content: space-between;
+}
+.thischart{
+    margin-bottom: 60px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #9A9EA7;
+}
+.findlast{
+    margin-top: 80px !important;
+}
+
